@@ -1,0 +1,26 @@
+{
+  "canisters": {
+    "EnoughTea_backend": {
+      "main": "src/EnoughTea_backend/main.mo",
+      "type": "motoko"
+    },
+    "EnoughTea_frontend": {
+      "dependencies": [
+        "EnoughTea_backend"
+      ],
+      "source": [
+        "src/EnoughTea_frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "EnoughTea_frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
