@@ -18,7 +18,7 @@ export default function Footer() {
               </p>
             </Col>
             <Col>
-              <a href="#"><img id="github-icon" src="../../github-icon.svg" alt="github icon" /></a>
+              <a href="https://github.com/waleedGeorgy/EnoughTea-Smixels"><img id="github-icon" src="../../github-icon.svg" alt="github icon" /></a>
             </Col>
             <Col>
               <p className="footer-copyright">Copyright ⓒ {year}</p>
