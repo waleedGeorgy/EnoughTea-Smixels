@@ -4,6 +4,10 @@
       "main": "src/EnoughTea_backend/main.mo",
       "type": "motoko"
     },
+    "nft":{
+      "main": "src/EnoughTea_backend/NFT/nft.mo",
+      "type": "motoko"
+    },
     "EnoughTea_frontend": {
       "dependencies": [
         "EnoughTea_backend"
